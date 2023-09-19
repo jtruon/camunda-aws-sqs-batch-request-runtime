@@ -21,14 +21,14 @@ Camunda AWS SQS Inbound Connector Template (Support Batch Request per Message)
 
 # Description
 
-> This repository is an add-on from the original Camunda connector AWS SQS Inbound connector tempalte to support batch request per message body.
+This repository is an add-on from the original Camunda connector AWS SQS Inbound connector tempalte to support batch request per message body.
 
-> AWS Batch Request: 
-> To reduce costs or manipulate up to 10 messages with a single action, you can use the following actions. The batch processing utility provides a way to handle partial failures when processing batches of messages from SQS queues, SQS FIFO queues, Kinesis Streams, or DynamoDB Streams.
-> Read more about [AWS Batch Request](https://docs.powertools.aws.dev/lambda/java/utilities/batch/)
+AWS Batch Request: 
+To reduce costs or manipulate up to 10 messages with a single action, you can use the following actions. The batch processing utility provides a way to handle partial failures when processing batches of messages from SQS queues, SQS FIFO queues, Kinesis Streams, or DynamoDB Streams.
+Read more about [AWS Batch Request](https://docs.powertools.aws.dev/lambda/java/utilities/batch/)
 
-> Goal:
-> To achieve the goal of of one message with multiple requests trigger multiple process instances. 
+Goal:
+To achieve the goal of of one message with multiple requests trigger multiple process instances. 
 
 
 ## Build
