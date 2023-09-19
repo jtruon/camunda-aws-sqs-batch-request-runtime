@@ -1,1 +1,1 @@
-io.camunda.connector.inbound.MyConnectorExecutable
+io.camunda.connector.inbound.SqsExecutable
