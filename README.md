@@ -15,7 +15,7 @@
 > Check out the [Connectors SDK](https://github.com/camunda/connector-sdk)
 
 
-# Camunda AWS SQS Inbound Connector Template (Batch Request version)
+# Camunda AWS SQS Inbound Connector Template
 
 Camunda AWS SQS Inbound Connector Template (Support Batch Request per Message)
 
