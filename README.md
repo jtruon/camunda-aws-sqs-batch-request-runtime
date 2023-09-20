@@ -68,9 +68,10 @@ mvn clean verify
 
 Use the [Camunda Connector Runtime](https://github.com/camunda-community-hub/spring-zeebe/tree/master/connector-runtime#building-connector-runtime-bundles) to run your function as a local Java application.
 
+**Run as standalone Spring Application:**
 In your IDE you can also simply navigate to the `LocalContainerRuntimeMain` class in main scope and run it via your IDE.
 If necessary, you can adjust `application.properties` in main/resource scope.
-
+**Note:** This is not a recommended way to run connector however it helps spin up your connector runtime relatively quickly.
 ## Element Template
 
 The element templates can be found in the [element-templates/inbound-template-connector.json](element-templates/inbound-template-connector.json) file.
