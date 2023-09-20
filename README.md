@@ -22,6 +22,8 @@ Camunda AWS SQS Inbound Connector Template (Support Batch Request per Message)
 # Description
 
 This repository is an add-on from the original Camunda connector AWS SQS Inbound connector template to support batch request per message body.
+Please refer to Camunda AWS SQS Connectors for latest updates.
+(https://github.com/camunda/connectors/tree/main/connectors/aws/aws-sqs)
 
 > AWS Batch Request: 
 > Why AWS Batch Request?
